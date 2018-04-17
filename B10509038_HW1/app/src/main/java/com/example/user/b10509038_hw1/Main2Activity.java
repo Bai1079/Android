@@ -17,6 +17,6 @@ public class Main2Activity extends AppCompatActivity {
         String input=intent.getStringExtra("input");
 
         tv_result=(TextView)findViewById(R.id.tv_result);
-        tv_result.setText("你的學號：" + input);
+        tv_result.setText("B10509038：" + input);
     }
 }
